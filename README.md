@@ -1,6 +1,6 @@
 # **Stock Dashboard**
 
-A real-time stock dashboard built with React, Tailwind CSS, and Vite.
+A real-time stock dashboard built with Vue, Tailwind CSS, and Vite.
 
 ## **Table of Contents**
 
@@ -19,7 +19,7 @@ The Stock Dashboard is a web application that displays real-time stock data, pro
 
 - Real-time stock data display
 - Responsive design using Tailwind CSS
-- Fast and efficient frontend built with React and Vite
+- Fast and efficient frontend built with Vue and Vite
 
 ## **Getting Started**
 
@@ -32,7 +32,7 @@ To run this project locally:
 
 ## **Technologies Used**
 
-- React
+- Vue
 - Tailwind CSS
 - Vite
 - Node.js
