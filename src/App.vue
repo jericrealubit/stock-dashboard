@@ -1,5 +1,13 @@
-<script setup></script>
+<script setup>
+import { RouterView } from 'vue-router'
+import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
+</script>
 
 <template>
-  <h1 class="text-2xl">Hello!</h1>
+  <div class="h-screen flex flex-col">
+    <Navbar />
+    <RouterView />
+    <Footer />
+  </div>
 </template>

@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Sidebar from '@/components/Sidebar.vue'
+import MainContent from '@/components/MainContent.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="h-screen flex flex-col">
+    <div class="flex flex-1 overflow-hidden">
+      <Sidebar class="h-full" />
+      <MainContent />
+    </div>
+  </div>
 </template>
