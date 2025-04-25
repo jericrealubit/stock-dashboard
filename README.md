@@ -1,29 +1,53 @@
-# .
+# **Stock Dashboard**
 
-This template should help get you started developing with Vue 3 in Vite.
+A real-time stock dashboard built with React, Tailwind CSS, and Vite.
 
-## Recommended IDE Setup
+## **Table of Contents**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-## Customize configuration
+## **Project Overview**
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+The Stock Dashboard is a web application that displays real-time stock data, providing users with a user-friendly interface to monitor stock performance.
 
-## Project Setup
+## **Features**
 
-```sh
-npm install
-```
+- Real-time stock data display
+- Responsive design using Tailwind CSS
+- Fast and efficient frontend built with React and Vite
 
-### Compile and Hot-Reload for Development
+## **Getting Started**
 
-```sh
-npm run dev
-```
+To run this project locally:
 
-### Compile and Minify for Production
+1. Clone the repository: `git clone https://github.com/jericrealubit/stock-dashboard.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your browser and navigate to `http://localhost:5173` (default Vite port)
 
-```sh
-npm run build
-```
+## **Technologies Used**
+
+- React
+- Tailwind CSS
+- Vite
+- Node.js
+- npm
+
+## **Contributing**
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/new-feature`
+3. Make changes and commit: `git commit -m "Add new feature"`
+4. Push changes to your fork: `git push origin feature/new-feature`
+5. Open a pull request
+
+## **License**
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
