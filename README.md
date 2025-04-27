@@ -82,22 +82,21 @@ A hosted build is available at **https://stock-dashboard.example.com**.
 
 📂 Project Structure
 
-stock-dashboard/
-├─ public/ # Static assets
-├─ src/
-│ ├─ assets/ # Images / icons
-│ ├─ components/ # Re-usable UI blocks
-│ ├─ layouts/ # App shells
-│ ├─ pages/ # Route components (Vue Router)
-│ ├─ stores/ # Pinia stores
-│ ├─ services/ # API helpers (Axios)
-│ ├─ styles/ # Tailwind base / utilities
-│ ├─ router/ # Vue-Router config
-│ └─ main.ts # App entry point
-├─ mock-api/ # json-server db & routes
-├─ tests/ # Vitest / Cypress etc.
-├─ .env.example
-└─ vite.config.ts
+ ├─ public/                # Static assets
+ ├─ src/
+ │   ├─ assets/            # Images / icons
+ │   ├─ components/        # Re-usable UI blocks
+ │   ├─ layouts/           # App shells
+ │   ├─ pages/             # Route components (Vue Router)
+ │   ├─ stores/            # Pinia stores
+ │   ├─ services/          # API helpers (Axios)
+ │   ├─ styles/            # Tailwind base / utilities
+ │   ├─ router/            # Vue-Router config
+ │   └─ main.ts            # App entry point
+ ├─ mock-api/              # json-server db & routes
+ ├─ tests/                 # Vitest / Cypress etc.
+ ├─ .env.example
+ └─ vite.config.ts
 
 ---
 
