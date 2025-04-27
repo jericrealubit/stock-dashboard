@@ -1,5 +1,13 @@
 [
   {
+    "Symbol": "000002.SZ",
+    "Description": "China Vanke Co Ltd"
+  },
+  {
+    "Symbol": "TSCO.LON",
+    "Description": "Tesco PLC"
+  },
+  {
     "Symbol": "A",
     "Description": "Agilent Technologies"
   },
@@ -8,24 +16,12 @@
     "Description": "Alcoa Corp"
   },
   {
-    "Symbol": "AAC.S",
-    "Description": "Ares Acquisition Corp II [Aact.U]"
-  },
-  {
-    "Symbol": "AAC.T",
-    "Description": "Ares Acquisition Corp II [Aact.Ws]"
-  },
-  {
     "Symbol": "AACT",
     "Description": "Ares Acquisition Corporation II Cl A"
   },
   {
     "Symbol": "AAM",
     "Description": "AA Mission Acquisition Corp Cl A"
-  },
-  {
-    "Symbol": "AAM.W",
-    "Description": "AA Mission Acquisition Corp WT"
   },
   {
     "Symbol": "AAMI",
@@ -68,18 +64,6 @@
     "Description": "Arbor Realty Trust"
   },
   {
-    "Symbol": "ABR-D",
-    "Description": "Arbor Realty Trust Inc"
-  },
-  {
-    "Symbol": "ABR-E",
-    "Description": "Arbor Realty Trust Inc"
-  },
-  {
-    "Symbol": "ABR-F",
-    "Description": "Arbor Realty Trust Inc"
-  },
-  {
     "Symbol": "ABT",
     "Description": "Abbott Laboratories"
   },
@@ -98,10 +82,6 @@
   {
     "Symbol": "ACEL",
     "Description": "Accel Entertainment Inc"
-  },
-  {
-    "Symbol": "ACH.W",
-    "Description": "Archer Aviation Inc WT [Achr.W]"
   },
   {
     "Symbol": "ACHR",
@@ -128,19 +108,7 @@
     "Description": "Abrnd Income Credit Strategies Fund"
   },
   {
-    "Symbol": "ACP-A",
-    "Description": "Aberdeen Income Credit Strategies Fund"
-  },
-  {
     "Symbol": "ACR",
-    "Description": "Acres Commercial Realty Corp"
-  },
-  {
-    "Symbol": "ACR-C",
-    "Description": "Acres Commercial Realty Corp Pfd"
-  },
-  {
-    "Symbol": "ACR-D",
     "Description": "Acres Commercial Realty Corp"
   },
   {
@@ -157,10 +125,6 @@
   },
   {
     "Symbol": "ADC",
-    "Description": "Agree Realty Corp"
-  },
-  {
-    "Symbol": "ADC-A",
     "Description": "Agree Realty Corp"
   },
   {
@@ -268,22 +232,6 @@
     "Description": "Federal Agricultural Mortgage Corp"
   },
   {
-    "Symbol": "AGM-D",
-    "Description": "Federal Agricultural Mortgage Corp [Agm/Pd]"
-  },
-  {
-    "Symbol": "AGM-E",
-    "Description": "Federal Agricultural Mortgage Corp [Agm/Pe]"
-  },
-  {
-    "Symbol": "AGM-F",
-    "Description": "Federal Agricultural Mortgage Corp [Agm/Pf]"
-  },
-  {
-    "Symbol": "AGM-G",
-    "Description": "Federal Agricultural Mortgage Corp"
-  },
-  {
     "Symbol": "AGM.A",
     "Description": "Federal Agricultural Mortgage Corp"
   },
@@ -308,48 +256,12 @@
     "Description": "Armada Hoffler Properties Inc"
   },
   {
-    "Symbol": "AHH-A",
-    "Description": "Armada Hoffler Pptys Inc [Ahh/Pa]"
-  },
-  {
-    "Symbol": "AHL-D",
-    "Description": "Aspen Insurance Holdings Ltd [Ahl/Pd]"
-  },
-  {
-    "Symbol": "AHL-E",
-    "Description": "Aspen Insurance Holdings Ltd [Ahl/Pe]"
-  },
-  {
-    "Symbol": "AHL-F",
-    "Description": "Aspen Insurance Holdings Ltd Pfd F"
-  },
-  {
     "Symbol": "AHR",
     "Description": "American Healthcare REIT Inc"
   },
   {
     "Symbol": "AHT",
     "Description": "Ashford Hospitality Trust Inc"
-  },
-  {
-    "Symbol": "AHT-D",
-    "Description": "Ashford Hospitality TR Inc [Aht/Pd]"
-  },
-  {
-    "Symbol": "AHT-F",
-    "Description": "Ashford Hospitality TR Inc [Aht/Pf]"
-  },
-  {
-    "Symbol": "AHT-G",
-    "Description": "Ashford Hospitality TR Inc [Aht/Pg]"
-  },
-  {
-    "Symbol": "AHT-H",
-    "Description": "Ashford Hospitality TR Inc [Aht/Ph]"
-  },
-  {
-    "Symbol": "AHT-I",
-    "Description": "Ashford Hospitality TR Inc [Aht/Pi]"
   },
   {
     "Symbol": "AI",
@@ -420,10 +332,6 @@
     "Description": "Albemarle Corp"
   },
   {
-    "Symbol": "ALB-A",
-    "Description": "Albemarle Corp Pfd A"
-  },
-  {
     "Symbol": "ALC",
     "Description": "Alcon Inc"
   },
@@ -452,22 +360,6 @@
     "Description": "Allstate Corp"
   },
   {
-    "Symbol": "ALL-B",
-    "Description": "Allstate Corp [All/Pb]"
-  },
-  {
-    "Symbol": "ALL-H",
-    "Description": "Allstate Corp [All/Ph]"
-  },
-  {
-    "Symbol": "ALL-I",
-    "Description": "Allstate Corp [All/Pi]"
-  },
-  {
-    "Symbol": "ALL-J",
-    "Description": "Allstate Corp Pfd"
-  },
-  {
     "Symbol": "ALLE",
     "Description": "Allegion Plc"
   },
@@ -478,10 +370,6 @@
   {
     "Symbol": "ALSN",
     "Description": "Allison Transmission Holdings"
-  },
-  {
-    "Symbol": "ALT-A",
-    "Description": "Alta Equipment Group Inc"
   },
   {
     "Symbol": "ALTG",
@@ -538,14 +426,6 @@
   {
     "Symbol": "AMH",
     "Description": "American Homes 4 Rent"
-  },
-  {
-    "Symbol": "AMH-G",
-    "Description": "American Homes 4 Rent [Amh/Pg]"
-  },
-  {
-    "Symbol": "AMH-H",
-    "Description": "American Homes 4 Rent [Amh/Ph]"
   },
   {
     "Symbol": "AMN",
