@@ -30,13 +30,11 @@
 
 - 🔍 **Symbol Search** – fetch live quotes for any ticker.
 - 🕰️ **Intraday & Historical Charts** – powered by ECharts.
-- 📰 **News Feed** – headline stream for the active symbol.
-- 🎛️ **Technical Indicators** – moving averages, Bollinger Bands, RSI.
-- 📊 **Portfolio Tracker** – add positions, monitor P/L.
-- 🌚 **Dark / Light Themes** – Tailwind CSS v4 colour modes.
+  <!-- - 📰 **News Feed** – headline stream for the active symbol. -->
+  <!-- - 🎛️ **Technical Indicators** – moving averages, Bollinger Bands, RSI. -->
+  <!-- - 📊 **Portfolio Tracker** – add positions, monitor P/L. -->
+  <!-- - 🌚 **Dark / Light Themes** – Tailwind CSS v4 colour modes. -->
 - ⚡ **Blazing Fast** – Vue 3 + Vite 6 + ES modules.
-
-_(Comment out bullets that are not yet implemented.)_
 
 ---
 
@@ -117,5 +115,5 @@ stock-dashboard/
  ├─ .env.example
  └─ vite.config.ts
 
- Made with ❤️ by @jericrealubit
+ "Made with ❤️ by @jericrealubit"
 ```
