@@ -1,5 +1,13 @@
 [
   {
+    "Symbol": "IBM",
+    "Description": "International Business Machines"
+  },
+  {
+    "Symbol": "IAG",
+    "Description": "Iamgold Corp"
+  },
+  {
     "Symbol": "000002.SZ",
     "Description": "China Vanke Co Ltd"
   },
@@ -5206,14 +5214,6 @@
   {
     "Symbol": "IAE",
     "Description": "VOYA Asia Pacific High Dividend Equity"
-  },
-  {
-    "Symbol": "IAG",
-    "Description": "Iamgold Corp"
-  },
-  {
-    "Symbol": "IBM",
-    "Description": "International Business Machines"
   },
   {
     "Symbol": "IBN",
