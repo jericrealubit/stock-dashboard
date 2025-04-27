@@ -81,7 +81,7 @@ A hosted build is available at **https://stock-dashboard.example.com**.
 ---
 
 📂 Project Structure
-
+```
  ├─ public/                # Static assets
  ├─ src/
  │   ├─ assets/            # Images / icons
@@ -97,7 +97,7 @@ A hosted build is available at **https://stock-dashboard.example.com**.
  ├─ tests/                 # Vitest / Cypress etc.
  ├─ .env.example
  └─ vite.config.ts
-
+```
 ---
 
 ## 🏁 Quick Start
@@ -117,7 +117,7 @@ cp .env.example .env   # then fill in API_KEY=...
 npm run dev
 
 # 5) Visit http://localhost:3000
-
+```
 ---
  "Made with ❤️ by @jericrealubit"
-```
+---
