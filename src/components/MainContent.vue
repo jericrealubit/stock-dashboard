@@ -1,8 +1,18 @@
 <script setup>
+import 'vue3-toastify/dist/index.css'
+import { toast } from 'vue3-toastify'
 import { useSelectedTextStore } from '@/stores/selectedSymbol'
 import axios from 'axios'
 import { storeToRefs } from 'pinia'
 import { ref, watch } from 'vue'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
+
+const notify = (type, msg) => {
+  toast(msg, {
+    type: type,
+    autoClose: 3000,
+  }) // ToastOptions
+}
 
 const selectedTextStore = useSelectedTextStore()
 const { selectedText } = storeToRefs(selectedTextStore)
@@ -13,7 +23,8 @@ const selected = ref('INTRADAY')
 const options = ref(['INTRADAY', 'DAILY', 'WEEKLY', 'MONTHLY'])
 //-
 
-const meta_data = ref([])
+const isLoading = ref(false)
+const meta_data = ref()
 
 const option = ref({
   title: { text: '', left: 'center' },
@@ -41,15 +52,18 @@ const fetchData = async (query) => {
   const timeframe = query.timeframe
   console.log(id, ' === ', timeframe)
   try {
-    //const response = await axios.get(`http://localhost:8000/stocks`)
+    isLoading.value = true
+    // const response = await axios.get(`http://localhost:8000/stocks`)
     const response = await axios.get(`http://localhost:8000/stocks`, {
       params: query,
     })
 
     meta_data.value = Object.values(response.data)[0]
-    console.log(Object.keys(meta_data.value).length)
+    console.log(Object.values(response.data)[0])
+    console.log(Object.keys(meta_data.value)[0])
 
-    if (Object.keys(meta_data.value).length < 10) {
+    if (Object.keys(meta_data.value)[0] == '1. Information') {
+      notify('success', 'Fetching Stocks Data Successful!')
       hasData.value = true
 
       console.log(meta_data.value)
@@ -70,10 +84,14 @@ const fetchData = async (query) => {
       option.value.xAxis.data = times
       option.value.series[0].data = closes
     } else {
+      notify('warning', 'Failed Fetching Stocks Data!')
       hasData.value = false
     }
   } catch (err) {
+    notify('error', 'Error Fetching Stocks Data!')
     console.error('Error Fetching Stocks Data', err)
+  } finally {
+    isLoading.value = false
   }
 }
 
@@ -120,7 +138,7 @@ watch([selectedText, selected], ([newVar1, newVar2], [oldVar1, oldVar2]) => {
     <div>
       <hr class="border-t border-gray-300 my-4" />
     </div>
-
+    <PulseLoader v-if="isLoading" class="float-left" />
     <div v-if="hasData" class="w-full">
       <v-chart :option="option" autoresize style="height: 400px; width: 80vw" />
     </div>
