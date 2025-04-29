@@ -67,6 +67,7 @@ _(Versions pulled directly from `package.json`.)_
 ## 🚀 Live Demo
 
 <!-- Replace with actual URL once deployed -->
+https://www.loom.com/share/26fd20f2210e46b2a8a16f596a87192b?sid=950d758f-6f65-49c9-8a62-890178212d54
 
 A hosted build is available at **https://stock-dashboard.example.com**.
 
