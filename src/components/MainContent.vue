@@ -47,7 +47,7 @@ const option = ref({
 })
 
 const fetchData = async (query) => {
-  console.log('xxx', query)
+  // console.log('xxx', query)
   const id = query.id
   const timeframe = query.timeframe
   console.log(id, ' === ', timeframe)

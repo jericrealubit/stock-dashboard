@@ -12,6 +12,11 @@
 </p>
 
 <p align="center">
+  Uses RESTful & reactive API:
+  https://github.com/jericrealubit/stock-dashboard-be
+</p>
+
+<p align="center">
   <!-- Adjust the badge URLs once your workflow / license is final -->
   <a href="https://github.com/jericrealubit/stock-dashboard/actions">
     <img alt="CI" src="https://github.com/jericrealubit/stock-dashboard/actions/workflows/ci.yml/badge.svg">
@@ -67,6 +72,7 @@ _(Versions pulled directly from `package.json`.)_
 ## 🚀 Live Demo
 
 <!-- Replace with actual URL once deployed -->
+
 https://www.loom.com/share/ab5c62a03dde401281f7cb5196d4b9a4
 
 A hosted build is available at **https://stock-dashboard.example.com**.
@@ -82,6 +88,7 @@ A hosted build is available at **https://stock-dashboard.example.com**.
 ---
 
 📂 Project Structure
+
 ```
  ├─ public/                # Static assets
  ├─ src/
@@ -99,6 +106,7 @@ A hosted build is available at **https://stock-dashboard.example.com**.
  ├─ .env.example
  └─ vite.config.ts
 ```
+
 ---
 
 ## 🏁 Quick Start
@@ -119,6 +127,7 @@ npm run dev
 
 # 5) Visit http://localhost:3000
 ```
+
 ---
- "Made with ❤️ by @jericrealubit"
----
+
+## "Made with ❤️ by @jericrealubit"
