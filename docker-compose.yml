@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        # Forward env var from host → build ARG
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:3000}
+    ports:
+      - '5173:80' # localhost:5173 → Nginx 80
+    container_name: stock-dashboard-fe
+    restart: unless-stopped
+    environment:
+      - TZ=UTC
+    # networks:
+    #   - stock-net
+# Uncomment & tweak when you add the back-end container
+#  backend:
+#    image: jericrealubit/stock-dashboard-be:latest
+#    ...
+
+# networks:
+#   stock-net:
+#     driver: bridge

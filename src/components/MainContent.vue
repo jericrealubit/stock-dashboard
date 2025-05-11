@@ -52,7 +52,7 @@ const fetchData = async (query) => {
   console.log(id, ' === ', timeframe)
   try {
     isLoading.value = true
-    const response = await axios.get(process.env.API_URL, {
+    const response = await axios.get(import.meta.env.VITE_API_URL, {
       params: query,
     })
 
