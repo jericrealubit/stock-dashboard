@@ -171,7 +171,7 @@ watch(favoriteSymbols, saveFavorites, { deep: true })
 
   <hr class="border-t border-gray-300 my-4" />
   <h2 class="text-lg font-bold mb-4">Stock Symbols</h2>
-  <div class="max-h-[60vh] overflow-y-auto border p-4">
+  <div class="max-h-[50vh] overflow-y-auto border p-4">
     <div>
       <ul class="divide-y divide-gray-200">
         <li
