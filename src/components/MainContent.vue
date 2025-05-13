@@ -76,7 +76,7 @@ const fetchData = async (query) => {
       const closes = times.map((t) => parseFloat(ts[t]['4. close']))
 
       option.value.title = {
-        text: `${Object.values(meta_data.value)[1]}: ${Object.values(meta_data.value)[0]} (Closing Price)`,
+        text: `${Object.values(meta_data.value)[1]}: ${Object.values(meta_data.value)[0]}`,
         left: 'center',
       }
       option.value.xAxis.data = times
@@ -101,7 +101,8 @@ watch([selectedText, selected], ([newVar1, newVar2], [oldVar1, oldVar2]) => {
 </script>
 
 <template>
-  <main class="p-4 flex-1 overflow-y-auto">
+  <!-- <main class="p-4 flex-1 overflow-y-auto"> -->
+  <main class="flex-1 overflow-auto p-4 bg-gray-50">
     <div>
       <div class="bg-blue-200 p-3 rounded-2xl mb-3">
         <div class="flex flex-wrap space-x-2 mx-auto">
@@ -110,14 +111,16 @@ watch([selectedText, selected], ([newVar1, newVar2], [oldVar1, oldVar2]) => {
             :key="option"
             @click="selected = option"
             :class="selected === option ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'"
-            class="px-4 py-2 rounded-md transition hover:cursor-pointer"
+            class="px-2 py-1 text-xs md:text-base md:px-4 md:py-2 rounded-md transition hover:cursor-pointer"
           >
             {{ option }}
           </button>
         </div>
       </div>
       <div class="bg-green-200 p-3 rounded-2xl">
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-300 p-2">
+        <div
+          class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-300 p-2 text-xs md:text-base"
+        >
           <div v-if="hasData">
             <h2 class="font-bold text-gray-800">Stock Information</h2>
             <ul>
