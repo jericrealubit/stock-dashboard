@@ -78,6 +78,9 @@ const fetchData = async (query) => {
       option.value.title = {
         text: `${Object.values(meta_data.value)[1]}: ${Object.values(meta_data.value)[0]}`,
         left: 'center',
+        textStyle: {
+          fontSize: 12,
+        },
       }
       option.value.xAxis.data = times
       option.value.series[0].data = closes
@@ -104,20 +107,20 @@ watch([selectedText, selected], ([newVar1, newVar2], [oldVar1, oldVar2]) => {
   <!-- <main class="p-4 flex-1 overflow-y-auto"> -->
   <main class="flex-1 overflow-auto p-4 bg-gray-50">
     <div>
-      <div class="bg-blue-200 p-3 rounded-2xl mb-3">
+      <div class="bg-blue-200 p-1 md:p-3 rounded-xl md:rounded-2xl mb-3">
         <div class="flex flex-wrap space-x-2 mx-auto">
           <button
             v-for="option in options"
             :key="option"
             @click="selected = option"
             :class="selected === option ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'"
-            class="px-2 py-1 text-xs md:text-base md:px-4 md:py-2 rounded-md transition hover:cursor-pointer"
+            class="px-2 py-1 md:px-4 md:py-2 text-xs md:text-base rounded-md transition hover:cursor-pointer"
           >
             {{ option }}
           </button>
         </div>
       </div>
-      <div class="bg-green-200 p-3 rounded-2xl">
+      <div class="bg-green-200 p-1 md:p-3 rounded-xl md:rounded-2xl">
         <div
           class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-300 p-2 text-xs md:text-base"
         >
@@ -137,11 +140,11 @@ watch([selectedText, selected], ([newVar1, newVar2], [oldVar1, oldVar2]) => {
     </div>
 
     <div>
-      <hr class="border-t border-gray-300 my-4" />
+      <hr class="border-t border-gray-300 my-1 md:my-4" />
     </div>
     <PulseLoader v-if="isLoading" class="float-left" />
     <div v-if="hasData" class="w-full">
-      <v-chart :option="option" autoresize style="height: 400px; width: 80vw" />
+      <v-chart :option="option" autoresize style="height: 300px; width: 80vw" />
     </div>
   </main>
 </template>
