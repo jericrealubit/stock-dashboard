@@ -75,7 +75,7 @@ _(Versions pulled directly from `package.json`.)_
 
 https://www.loom.com/share/ab5c62a03dde401281f7cb5196d4b9a4
 
-A hosted build is available at **https://stock-dashboard-jeric.netlify.app/**.
+### URL https://stock-dashboard-jeric.netlify.app/
 
 ---
 
