@@ -19,7 +19,7 @@ const { selectedText } = storeToRefs(selectedTextStore)
 
 const hasData = ref(false)
 //+ Select Timeframe
-const selected = ref('INTRADAY')
+const selected = ref('MONTHLY')
 const options = ref(['INTRADAY', 'DAILY', 'WEEKLY', 'MONTHLY'])
 //-
 
